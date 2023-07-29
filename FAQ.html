@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FAQ - Technical University</title>
+  <link rel="stylesheet" href="FAQ.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:  #ece0f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #8e44ad;
+      margin-bottom: 30px;
+    }
+
+    .faq-item {
+      margin-bottom: 30px;
+    }
+
+    .question {
+      color: #8e44ad;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .answer {
+      display: none;
+      color: #333;
+    }
+
+    .answer.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+    <div class="a">
+        <img src="DDU.png" width="60" height="60">
+        <h2 class="z">&nbsp&nbsp&nbsp&nbspDheen Dayal Technological University  </h2>
+        <ul>
+            <li><a href="mainpage.html" title="Back to Main Page "><img class="rev" src="reverse.png" width="45px" height="40px"></a></li>
+          
+           <li class="l1">Welcome THEJAL K</li>
+        </ul>
+        </div>
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(1)">What programs does the technical university offer?</div>
+      <div class="answer" id="answer1">
+        The technical university offers a wide range of programs in engineering, computer science, information technology, business, and more. You can find detailed information about each program on our website.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(2)">How do I apply for admission?</div>
+      <div class="answer" id="answer2">
+        To apply for admission, you need to fill out the online application form available on our website. Make sure to review the admission requirements and deadlines before applying.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(3)">Are there scholarships available for students?</div>
+      <div class="answer" id="answer3">
+        Yes, the technical university offers various scholarships and financial aid programs for eligible students. You can check our scholarship page for more information and application details.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(4)">Can international students apply?</div>
+      <div class="answer" id="answer4">
+        Yes, international students are welcome to apply to our university. We have specific admission requirements and support services for international applicants. Please visit our international students page for more information.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(5)">What are the tuition fees for the programs?</div>
+      <div class="answer" id="answer5">
+        Tuition fees vary depending on the program and the student's residency status. You can find detailed information about the tuition fees on our tuition and fees page.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question" onclick="toggleAnswer(6)">Is there on-campus housing available?</div>
+      <div class="answer" id="answer6">
+        Yes, the university offers on-campus housing options for students. Our residential facilities provide a comfortable and convenient living experience. Visit our campus life page to learn more about housing and campus facilities.
+      </div>
+    </div>
+
+    <!-- Add more FAQ items here -->
+
+  </div>
+
+  <script>
+    function toggleAnswer(id) {
+      const answer = document.getElementById(`answer${id}`);
+      answer.classList.toggle('show');
+    }
+  </script>
+    <div class="end">
+        <center><p class="p1">Copyright Ⓒ Dheen Dayal Technological University 2014.</p></center></div>
+</body>
+</html>
+

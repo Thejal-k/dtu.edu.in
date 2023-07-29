@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logout and Remind Password</title>
+  <link rel="stylesheet" href="logout.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ece0f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #8e44ad;
+      margin-bottom: 20px;
+    }
+
+    .logout-message {
+      text-align: center;
+      font-size: 18px;
+      color: #8e44ad;
+    }
+
+    .logout-btn {
+      background-color: #8e44ad;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .logout-btn:hover {
+      background-color: #6c3483;
+    }
+
+    .remind-box {
+      border: 2px dashed #8e44ad;
+      border-radius: 6px;
+      padding: 10px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .remind-box p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .remind-link {
+      color: #8e44ad;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <div class="a">
+        <img src="DDU.png" width="60" height="60">
+        <h2 class="z">&nbsp&nbsp&nbsp&nbspDheen Dayal Technological University  </h2>
+        <ul>
+            <li><a href="mainpage.html" title="Back to main page"><img class="rev" src="reverse.png" width="45px" height="40px"></a></li>
+        
+        
+           <li class="l1">Welcome THEJAL K</li>
+        </ul>
+        </div>
+  <div class="container">
+    <h2>Logout</h2>
+    <p class="logout-message">Are you sure you want to log out?</p>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+
+    <div class="remind-box">
+      <p>Remind my password for later:</p>
+      <p class="remind-link" onclick="remindPassword()">Click here to receive an email with your password</p>
+    </div>
+  </div>
+
+  <script>
+    function logout() {
+     
+      alert("You have been logged out!");
+    }
+
+    function remindPassword() {
+      
+      alert("An email with your password will be sent shortly.");
+    }
+  </script>
+    <div class="end">
+        <center><p class="p1">Copyright Ⓒ Dheen Dayal Technological University 2014.</p></center></div>
+
+</body>
+</html>
+

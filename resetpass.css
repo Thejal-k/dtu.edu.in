@@ -1,0 +1,46 @@
+.a{
+    width: auto; height: 70px;
+    background-color: rgb(183, 149, 238);
+    border:solid rgb(25, 2, 80);
+    border-width: 0px 0px 5px 0px;
+    display: flex;
+    gap: 10px;
+    
+    }
+    .z{
+        color: #200742;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li{
+        float: right;
+        padding: 10px;
+    }
+
+    .l1{
+    background-color: #8159df;
+   width: 150px;
+   height:auto
+}
+.end{
+    width: auto;
+    height: 35px;
+    background-color: #583381;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+}
+.p1{
+    position: relative;
+    top: -8px;
+}
+.pass{
+    text-decoration: none;
+}
+.rev{
+    position: relative;
+    top: -10px;
+  
+}

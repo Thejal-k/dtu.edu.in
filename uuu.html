@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image with Next Arrow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .image-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.3s;
+    }
+
+    .next-arrow {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 24px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: none;
+      border-radius: 50%;
+      padding: 5px;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    .image-container:hover .next-arrow {
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img id="image1" src="kazh.jpg" alt="Image 1">
+    <img id="image2" src="kazh.jpg" alt="Image 2">
+    <button class="next-arrow" onclick="toggleImage()">➡</button>
+  </div>
+
+  <script>
+    const image1 = document.getElementById("image1");
+    const image2 = document.getElementById("image2");
+    let isImage1Visible = true;
+
+    function toggleImage() {
+      if (isImage1Visible) {
+        image1.style.opacity = "0";
+        image2.style.opacity = "1";
+      } else {
+        image1.style.opacity = "1";
+        image2.style.opacity = "0";
+      }
+      isImage1Visible = !isImage1Visible;
+    }
+  </script>
+</body>
+</html>
+
+
+

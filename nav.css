@@ -1,0 +1,21 @@
+/* styles.css */
+
+.slideshow-container {
+    position: relative;
+    max-width: 75%;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    height: 500px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  

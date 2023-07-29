@@ -1,0 +1,87 @@
+.sign{
+ width: auto;
+ height: 50px;
+ background-color: rgb(55, 15, 88);
+ text-align: center;
+ border-radius: 5px;
+}
+.s1{
+    position: relative;
+    top: 7px;
+}
+.im1{
+    position: relative;
+    left: -10px;
+    top: 10px;
+}
+.maind{
+    width: auto;
+    height: 1000px;
+    border: solid black;
+    background-color: #d1cce4;
+}
+.a{
+    width: auto; height: 70px;
+    background-color:rgb(183, 149, 238);
+    border:solid rgb(25, 2, 80);
+    border-width: 0px 0px 5px 0px;
+    display: flex;
+    gap: 10px;
+    
+    }
+    .z{
+        color:#200742;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li{
+        float: right;
+        padding: 10px;
+        
+    }
+    .l1{
+        background-color: #2869b3;
+       width: 35px;
+       height: 15px;
+    }
+    .l2{
+        background-color: #dd351f;
+        width: 35px;
+        height: 15px;
+    }
+    .end{
+        width: auto;
+        height: 35px;
+        background-color: #583381;
+        padding: 5px;
+        position: relative;
+        top: 30px;
+        
+    }
+    .p1{
+        position: relative;
+        top: -8px;
+    }
+    .im2{
+        position: relative;
+        top: -10px;
+    }
+    .mar{
+        position: relative;
+        top: 10px;
+        color: #dd351f;
+    }
+    .faq{
+        text-decoration: none;
+        color: black;
+    }
+    .con{
+        text-decoration: none;
+        color: black;
+    }
+    .home{
+        text-decoration: none;
+        color: black;
+    }

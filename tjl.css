@@ -1,0 +1,61 @@
+ul
+{
+list-style-type:none;
+overflow:hidden;
+background-color:#357EC7;
+}
+LI
+{
+float:left;
+padding:25px;
+}
+ul
+{
+list-style-type:none;
+overflow:hidden;
+background-color:aquablue;
+}
+li
+{
+float:left;
+padding:20px;
+}
+h3
+{
+color:#4d80bf;
+}
+h5
+{
+background-color:c0c0c0;
+}
+#div1
+{
+
+background-color:#87afc7;
+padding:20px;
+width:500px;
+position: relative;
+left: 10px;
+
+border-radius:20px;
+border: 2px solid black
+
+}
+#div2
+{
+    background-color: aquamarine;
+    position: relative;
+    left: 500px;
+   padding: 20px;
+    width: 300px;
+    display: inline-flex;
+
+
+}
+#div3
+{
+
+}
+
+
+

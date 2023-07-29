@@ -1,0 +1,38 @@
+body{
+    border: solid rgb(13, 1, 173);
+}
+.im1{
+    position: relative;
+    left: 390px;
+    top: 200px;
+}
+.he1{
+    position: relative;
+    left: 250px;
+    top: -270px;
+}
+.he2{
+    position: relative;
+    left: 420px;
+    top: -330px;
+    color: rgb(245, 35, 35);
+}
+.he3{
+    position: relative;
+    left: 700px;
+    top: -388px;
+}
+.end{
+    width: auto;
+    height: 35px;
+    background-color: #583381;
+    padding: 5px;
+    position: relative;
+    top: 200px;
+}
+.p1{
+    position: relative;
+    top: -8px;
+}
+
+

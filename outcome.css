@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro,
+  .benefits,
+  .implementation,
+  .conclusion {
+    background-color: #f0e6fa;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .benefits ul,
+  .benefits li {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .benefits li::before {
+    content: "\2022"; 
+    margin-right: 8px;
+  }
+  
+  
+  .a{
+    width: auto; height: 70px;
+    background-color:rgb(183, 149, 238);
+    border:solid rgb(25, 2, 80);
+    border-width: 0px 0px 5px 0px;
+    display: flex;
+    gap: 10px;
+    
+    }
+    .z{
+        color:#200742;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li{
+        float: right;
+        padding: 10px;
+        
+    }
+    .l1{
+        background-color: #2869b3;
+       width: 35px;
+       height: 15px;
+    }
+    .l2{
+        background-color: #dd351f;
+        width: 35px;
+        height: 15px;
+    }
+    .p1{
+      position: relative;
+      top: -8px;
+  }
+    .end{
+        width: auto;
+        height: 35px;
+        background-color: #583381;
+        padding: 5px;
+        position: relative;
+        top: 2px;
+    }
+    .faq{
+      text-decoration: none;
+      color: black;
+  }
+  .con{
+      text-decoration: none;
+      color: black;
+  }
+  .home{
+      text-decoration: none;
+      color: black;
+  }
+  
